@@ -1,8 +1,7 @@
 name: Build
 
-on:
-  workflow_dispatch:
-  push:
+on: push
+
 
 env:
   CARGO_TERM_COLOR: always
